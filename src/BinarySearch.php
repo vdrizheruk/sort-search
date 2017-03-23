@@ -14,10 +14,8 @@ class BinarySearch
      */
     public function search(int $element, array $data)
     {
-        $count_elements = count($data);
-
         $begin = 0;
-        $end = $count_elements - 1;
+        $end = count($data) - 1;
 
         $prev_begin = $begin;
         $prev_end = $end;
